@@ -14,5 +14,23 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const themeColors = require('tailwindcss/defaultTheme');
+
+      const colors = {
+        ...themeColors,
+        'primary-color': 'var(--primary-color)',
+        'primary-color-hover': 'var(--primary-color-hover)',
+      };
+
+      const colorUtilities = {};
+      Object.keys(colors).forEach((color) => {
+        colorUtilities[`.text-${color}`] = { color: colors[color] };
+        colorUtilities[`.bg-${color}`] = { backgroundColor: colors[color] };
+      });
+
+      addUtilities(colorUtilities, ['responsive', 'hover']);
+    },
+  ],
 };
