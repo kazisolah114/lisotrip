@@ -1,0 +1,85 @@
+{
+    "airports": [
+      {"code": "JFK", "name": "John F. Kennedy International Airport", "city": "New York", "country": "United States"},
+      {"code": "IST", "name": "Istanbul International Airport", "city": "Istanbul", "country": "Turkey"},
+      {"code": "DFW", "name": "Dallas Fort Worth International Airport", "city": "Dallas", "country": "United States"},
+      {"code": "DAC", "name": "Hazrat Shahjalal International Airport", "city": "Dhaka", "country": "Bangladesh"},
+      {"code": "CXB", "name": "Cox's Bazar International Airport", "city": "Cox's Bazar", "country": "Bangladesh"},
+      {"code": "DOH", "name": "Hamad International Airport", "city": "Doha", "country": "Qatar"},
+      {"code": "LHR", "name": "London Heathrow Airport", "city": "London", "country": "United Kingdom"},
+      {"code": "CDG", "name": "Charles de Gaulle Airport", "city": "Paris", "country": "France"},
+      {"code": "HND", "name": "Haneda Airport", "city": "Tokyo", "country": "Japan"},
+      {"code": "SYD", "name": "Sydney Airport", "city": "Sydney", "country": "Australia"},
+      {"code": "DXB", "name": "Dubai International Airport", "city": "Dubai", "country": "United Arab Emirates"},
+      {"code": "SIN", "name": "Singapore Changi Airport", "city": "Singapore", "country": "Singapore"},
+      {"code": "PEK", "name": "Beijing Capital International Airport", "city": "Beijing", "country": "China"},
+      {"code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt", "country": "Germany"},
+      {"code": "ATL", "name": "Hartsfield-Jackson Atlanta International Airport", "city": "Atlanta", "country": "United States"},
+      {"code": "MEX", "name": "Benito Juárez International Airport", "city": "Mexico City", "country": "Mexico"},
+      {"code": "ORD", "name": "O'Hare International Airport", "city": "Chicago", "country": "United States"},
+      {"code": "AMS", "name": "Amsterdam Airport Schiphol", "city": "Amsterdam", "country": "Netherlands"},
+      {"code": "ICN", "name": "Incheon International Airport", "city": "Seoul", "country": "South Korea"},
+      {"code": "YYZ", "name": "Toronto Pearson International Airport", "city": "Toronto", "country": "Canada"},
+      {"code": "MUC", "name": "Munich Airport", "city": "Munich", "country": "Germany"},
+      {"code": "JNB", "name": "OR Tambo International Airport", "city": "Johannesburg", "country": "South Africa"},
+      {"code": "SFO", "name": "San Francisco International Airport", "city": "San Francisco", "country": "United States"},
+      {"code": "DEL", "name": "Indira Gandhi International Airport", "city": "Delhi", "country": "India"},
+      {"code": "PTY", "name": "Tocumen International Airport", "city": "Panama City", "country": "Panama"},
+      {"code": "MIA", "name": "Miami International Airport", "city": "Miami", "country": "United States"}
+    ],
+    "airlines": [
+      {"code": "AA", "name": "American Airlines"},
+      {"code": "DL", "name": "Delta Airlines"},
+      {"code": "QT", "name": "Qatar Airways"},
+      {"code": "UA", "name": "United Airlines"},
+      {"code": "TK", "name": "Turkish Airlines"}
+    ],
+    "flights": [
+      {
+        "flightNumber": "QT929",
+        "airlineCode": "QT",
+        "departureAirportCode": "DAC",
+        "arrivalAirportCode": "DOH",
+        "departureTime": "2024-02-10T08:00:00",
+        "arrivalTime": "2024-02-10T12:00:00",
+        "price": 300.00
+      },
+      {
+        "flightNumber": "QT323",
+        "airlineCode": "QT",
+        "departureAirportCode": "DAC",
+        "arrivalAirportCode": "DOH",
+        "departureTime": "2024-02-10T08:00:00",
+        "arrivalTime": "2024-02-10T12:00:00",
+        "price": 500.00
+      },
+      {
+        "flightNumber": "TK223",
+        "airlineCode": "TK",
+        "departureAirportCode": "DAC",
+        "arrivalAirportCode": "IST",
+        "departureTime": "2024-02-10T08:00:00",
+        "arrivalTime": "2024-02-10T12:00:00",
+        "price": 500.00
+      },
+      {
+        "flightNumber": "AA123",
+        "airlineCode": "AA",
+        "departureAirportCode": "JFK",
+        "arrivalAirportCode": "LAX",
+        "departureTime": "2024-02-10T08:00:00",
+        "arrivalTime": "2024-02-10T12:00:00",
+        "price": 300.00
+      },
+      {
+        "flightNumber": "DL456",
+        "airlineCode": "DL",
+        "departureAirportCode": "LAX",
+        "arrivalAirportCode": "ORD",
+        "departureTime": "2024-02-12T10:30:00",
+        "arrivalTime": "2024-02-12T15:30:00",
+        "price": 250.00
+      }
+    ]
+  }
+  
